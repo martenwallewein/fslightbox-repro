@@ -15,6 +15,7 @@ function App() {
     const imgs = _.times(100).map((num) => {
       return {
         id: num,
+        // Add query params to force the browser not to cache the images
         iconSrc: `https://place-hold.it/600?v=${num}`,
         scaledSrc: `https://miro.medium.com/max/4320/0*QNdQhs_T3ffa6B0m.jpeg?v=${num}`,
       };
