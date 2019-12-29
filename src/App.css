@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+
+.GalleryContainer {
+  max-width: 1248px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 0.5em;
+}
+
+.GallerySlider {
+  height: 250px;
+}
+
+.GalleryImageCol {
+  padding-top: 1em;
+  cursor: pointer;
+}
+
+.GalleryImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.PreviewImage {
+  object-fit: contain;
+  height: 250px;
+  width: auto !important;
+}
